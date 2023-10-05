@@ -8,3 +8,22 @@ html, body{
     width: 100%; 
     height: 100%;
 }
+#body{
+    background: rgb(0, 128, 0); 
+    width: 100%; 
+    height: 100%;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+#header{
+    background: rgb(128, 128, 0); 
+    position: absolute;
+    top: 0; left: 0;
+    height: 10%;
+    width: 100%;
+    border: 4px solid black;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid black;
+}
