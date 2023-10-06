@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href='style.css'>
-        
+
     </head>
 
     <body> <!-- body tag -->
@@ -20,21 +20,28 @@
     <div id="header"></div> <!-- header div --> 
     
     <div id="body"> <!-- background div -->
-
-        <div class="border red-square" id="red-square-1"></div>
-        <div class="border red-square" id="red-square-2"></div>
-
-        <div id="equals-sign">
-            <div class="border equals" id="equals-top"></div>
-            <div class="border equals" id="equals-bottom"></div>
+        <div id="col-1">
+            <div id="rotated-div">
+                <div class="border red-square" id="red-square-1"></div>
+                <div class="border red-square" id="red-square-2"></div>
+            </div>
+        </div>
+        
+        <div id="col-2">
+            <div id="equals-sign">
+                <div class="border equals" id="equals-top"></div>
+                <div class="border equals" id="equals-bottom"></div>
+            </div>
+        
+            <div class="border" id="circle"></div>
         </div>
 
-        <div class="border" id="circle"></div>
-
-        <div class="border" id="rectangle">
-            <p>ABC</p>
+        <div id="col-3">
+            <div class="border" id="rectangle">
+                <p>ABC</p>
+            </div>
         </div>
-
+        
     </div>
 
     </body>

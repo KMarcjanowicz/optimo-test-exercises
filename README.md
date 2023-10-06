@@ -1,2 +1,2 @@
 # optimo-test-exercises
- Test exercises for Optimo developement
+ Test exercises for Optimo Development
