@@ -218,8 +218,8 @@ p{
         margin-top: 10vh;
     }
     .red-square{
-        width: 30vw;
-        height: 30vw;
+        width: 15vh;
+        height: 15vh;
         max-width: 120px;
         max-height: 120px;
     }
@@ -241,7 +241,7 @@ p{
         height: 25vw;
         width: 25vw;
         bottom: 0;
-        right: 25vw;
+        left: 45vw;
         max-width: 100px;
         max-height: 100px;
     }
