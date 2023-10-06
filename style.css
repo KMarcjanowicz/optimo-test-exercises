@@ -24,7 +24,10 @@ html, body{
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     box-sizing: border-box;
-    display: inline-block;
+}
+#col-1{
+    width: auto;
+    height: auto;
 }
 .border{
     border: 2px solid black;
@@ -33,7 +36,6 @@ html, body{
     position: relative;
     display: inline-block;
     transform: rotate(-45deg);
-
 }
 .red-square{
     float: left;
@@ -81,18 +83,23 @@ p{
 }
 
 @media (min-width: 900px) {
+    #body{
+        display: inline-block;
+    }
     #col-1{
-        float:left;
-        width: 33%;
-        height: 100%;
+        display: inline-block;
+        height: 100% !important;
     }
     #col-2{
-        float:left;
-        width: 33%;
+        float: left;
         height: 100%;
     }
     #col-3{
-        float:right;
+        float: left;
+        height: 100%;
+    }
+    #col-4{
+        float: right;
         width: 33%;
         height: 100%;
         position: relative
@@ -115,5 +122,29 @@ p{
         bottom: 15%;
         right: 10%;
         left: 10%
+    }
+}
+@media (min-width: 583px) and (max-width: 899px){
+    #body{
+        display: inline-block;
+    }
+    #col-1{
+        display: block;
+        height: 100% !important;
+        float: left;
+    }
+    #col-2{
+        width: 50%;
+        height: 50%;
+    }
+    #col-3{
+        width: 50%;
+        height: 50%;
+    }
+    #col-4{
+        float:right;
+        width: 50%;
+        height: 100%;
+        position: relative
     }
 }
